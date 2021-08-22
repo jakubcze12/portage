@@ -1,0 +1,7 @@
+www-client/torbrowser ~amd64
+=gnome-extra/evolution-data-server-3.40.2
+=www-client/firefox-90.0.2
+dev-libs/nss ~amd64
+#<=x11-drivers/nvidia-drivers-390.144
+>sys-kernel/gentoo-sources-4.19.198
+app-misc/openrgb ~amd64
