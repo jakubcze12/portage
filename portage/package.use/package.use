@@ -1,3 +1,9 @@
-app-emulation/virtualbox qt5
-gnome-base/gnome-control-center -gnome-online-accounts
+app-emulation/virtualbox -vboxwebsrv  qt5
+media-video/pipewire -bluetooth -aac -aptxZ pulseaudio
+gnome-base/gnome-control-center -ibus -gnome-online-accounts
 media-libs/opencv qt5 -semantic-desktop
+www-client/firefox ~amd64 -geckodriver -system-icu -screencast system-webp pgo eme-free hwaccel openh264 hardened system-webp system-libevent system-av1
+media-video/obs-studio -browser -decklink -vlc nvenc
+gnome-base/gnome -classic -extras cups
+app-office/libreoffice -googledrive
+dev-qt/qtmultimedia -widgets 

@@ -1,19 +1,19 @@
-#     THE HOLY MAKE.CONF, BRING THE COMMANDMENTS
+# THE HOLY MAKE.CONF, BRING THE COMMANDMENTS
 # ---------------------------------------------------------------
 # 1.  I AM STALLMAN, YOUR GOD. YOU SHALL HAVE NO GODS BEFORE ME.
 # 2.  THERE IS NO SYSTEM BUT GNU AND LINUX IS ONE OF ITS KERNELS.
 # 3.  FREE SOFTWARE MEANS THAT THE SOFTWARE'S USERS HAVE FREEDOM.
 # 4.  OPEN SOURCE IS A TRAITOROUS ORGANIZATION AND IT IS EVIL.
 # 5.  EVERY USER SHALL HAVE THE FOUR ESSENTIAL FREEDOMS:
-# 6.  THE FREEDOM TO RUN THE PROGRAM AS YOU WISH, FOR ANY PURPOSE.
-# 7.  THE FREEDOM TO STUDY HOW THE PROGRAM WORKS, AND CHANGE IT SO IT DOES YOUR COMPUTING AS YOU WISH.
+# 6.  THE FREEDOM TO RUN THE PROGRAM AS YOU WITH, FOR ANY PURPOSE.
+# 7.  THE FREEDOM TO STUDY HOW THE PROGRAM WORKS, AND CHANGE IT SO IT DOES YOUR COMPUTING AS YOU WISH. 
 # -.  ACCESS TO THE SOURCE CODE IS A PRECONDITION FOR THIS.
 # 8.  THE FREEDOM TO REDISTRIBUTE COPIES SO YOU CAN HELP OTHERS.
 # 9.  THE FREEDOM TO DISTRIBUTE COPIES OF YOUR MODIFIED VERSIONS TO OTHERS
-# -.  BY DOING THIS YOU CAN GIVE THE WHOLE COMMUNITY A CHANCE TO BENEFIT
+# -.  BY DOING THIS YOU CAN GIVE THE WHOLE COMMUNITY A CHANCE TO BENEFIT 
 # -.  FROM YOUR CHANGES. ACCESS TO THE SOURCE CODE IS A PRECONDITION
 # -.  FOR THIS.
-# 10. A PROPRIETARY PROGRAM PUTS ITS DEVELOPER OR OWNER IN A POSITION OF POWER OVER ITS USERS.
+# 10. A PROPRIETARY PROGRAM PUTS ITS DEVELOPER OR OWNER IN A POSITION OF POWER OVER ITS USERS. 
 
 
 
@@ -24,16 +24,12 @@ CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
 FCFLAGS="${COMMON_FLAGS}"
 FFLAGS="${COMMON_FLAGS}"
-ACCEPT_LICENSE="@FREE"
+ACCEPT_LICENSE="*"
 VIDEO_CARDS="nvidia"
-USE="gnome gtk -plasma -kde -qt -qt5 -qtmedia -cdr -gnome-keyring \
-     -wayland -gpm -qtwebengine -webengine -systemd -geolocation -kwallet \
-     -emacs -ios -kerberos -handbook -share -semantic-desktop \
-     -gnome-online-accounts pulseaudio -css -aqua -3dfx -flatpak \
-     -snap truetype alsa -pipewire -vlc -bluetooth -suspend hardened \
-     -vnc -debug -jack -accessibility -branding -java -qt-faststart \
-     -kerberos"
-
+USE="gnome gtk -plasma -kde -qt -qt5 -qtmedia  -pulseaudio -cdr -gnome-keyring  -wayland  -gpm -qtwebengine -webengine -systemd
+     -geolocation -kwallet -emacs -ios -kerberos -handbook -share -semantic-desktop -gnome-online-accounts pulseaudio
+     -css -aqua -3dfx -flatpak -snap truetype" 
+      
 #ACCEPT_KEYWORDS="~amd64"
 
 # NOTE: This stage was built with the bindist Use flag enabled

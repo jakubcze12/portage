@@ -870,3 +870,45 @@
 # required by sci-geosciences/gnome-maps-40.3::gentoo
 # required by gnome-maps (argument)
 >=gnome-base/gnome-control-center-40.0 gnome-online-accounts
+# required by sys-power/suspend-1.0_p20200924::gentoo[crypt]
+# required by sys-power/suspend (argument)
+>=dev-libs/libgcrypt-1.8.7 static-libs
+# required by sys-power/suspend-1.0_p20200924::gentoo[crypt]
+# required by sys-power/suspend (argument)
+>=dev-libs/libgpg-error-1.42 static-libs
+# required by sys-power/suspend-1.0_p20200924::gentoo[lzo]
+# required by sys-power/suspend (argument)
+>=dev-libs/lzo-2.10 static-libs
+# required by www-client/torbrowser-launcher-0.3.4::torbrowser
+# required by torbrowser-launcher (argument)
+>=app-crypt/gpgme-1.15.1 python
+# required by dev-python/PyQt5-5.15.4-r1::gentoo[multimedia]
+# required by www-client/torbrowser-launcher-0.3.4::torbrowser
+# required by torbrowser-launcher (argument)
+>=dev-qt/qtmultimedia-5.15.2 widgets
+# required by media-gfx/simple-scan-40.1::gentoo[colord]
+# required by simple-scan (argument)
+>=x11-misc/colord-1.4.5-r1 vala
+# required by dev-util/android-sdk-update-manager-24.4.1-r2::gentoo
+# required by dev-util/android-sdk-update-manager (argument)
+>=sys-libs/ncurses-compat-6.2 abi_x86_32
+# required by media-sound/pulseaudio-13.0-r1::gentoo[alsa-plugin,alsa]
+# required by gnome-base/gnome-control-center-40.0::gentoo
+# required by gnome-base/gnome-shell-40.3::gentoo
+# required by @preserved-rebuild (argument)
+>=media-plugins/alsa-plugins-1.2.2 pulseaudio
+# required by media-libs/libsdl2-2.0.16::gentoo[pipewire]
+# required by media-video/ffmpeg-4.4-r1::gentoo[sdl]
+# required by media-video/mpv-0.33.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-video/pipewire-0.3.36 abi_x86_32
+# required by www-client/firefox-93.0::gentoo[pgo]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-1.20.13-r1 xvfb
+# required by media-sound/pulseaudio-15.0-r1::gentoo
+# required by media-sound/pavucontrol-5.0-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/speexdsp-1.2.0 abi_x86_32
