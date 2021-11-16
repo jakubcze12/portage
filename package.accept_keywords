@@ -1,0 +1,21 @@
+#www-client/torbrowser ~amd64
+=gnome-extra/evolution-data-server-3.40.2
+www-client/firefox ~amd64
+dev-libs/nss ~amd64
+#=x11-drivers/nvidia-drivers-390.144
+app-misc/openrgb ~amd64
+www-client/torbrowser ~amd64
+www-client/torbrowser-launcher ~amd64
+=app-emulation/wine-vanilla-6.16 ~amd64
+dev-libs/nspr ~amd64
+net-im/discord-bin ~amd64
+dev-util/android-sdk-update-manager ~amd64
+media-sound/gmtp ~amd64
+media-video/obs-studio ~amd64
+=sys-kernel/gentoo-sources-4.19.205
+media-tv/plex-media-server ~amd64
+app-emulation/wine-staging ~amd64
+app-emulation/wine-mono ~amd64
+games-util/lutris ~amd64
+mail-client/thunderbird ~amd64
+games-misc/papers-please ~amd64

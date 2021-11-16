@@ -1,0 +1,11 @@
+#Linux firmware
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+
+#Steam
+games-util/steam-launcher ValveSteamLicense
+
+#Discord Soyware
+net-im/discord-bin all-rights-reserved
+
+#Nvidia soy drivers
+x11-drivers/nvidia-drivers NVIDIA-r2
